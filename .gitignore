@@ -1,0 +1,111 @@
+# --- Python / Backend ---
+# Virtual Environments
+venv/
+env/
+ENV/
+*.env
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Local databases (uncomment if you don't want to track SQLite databases)
+# *.sqlite3
+# *.db
+
+
+# --- Node.js / Frontend ---
+# Dependencies
+node_modules/
+jspm_packages/
+
+# TypeScript declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm run build'
+dist/
+build/
+.next/
+out/
+
+
+# --- Environment & Secrets (Crucial) ---
+.env
+.env.local
+.env.*.local
+*.pem
+secrets.json
+
+
+# --- IDEs & Editors ---
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Vim / Emacs swap files
+*.swp
+*.swo
+*~
+
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
